@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.header-font{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.padd{
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-right: 2rem;
+}
+.back{
+    padding-bottom: 12rem;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.bgg{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
+}
+.body-txt1{
+    font-size: 3.5em;
+    color: white ;
+    font-weight: 500;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    padding-top: 15rem;
+
+}
+.horizondal-line{
+    height: 1rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;;
+    opacity: 1;
+    width: 3rem;
+}
+.para{
+    font-size: 1.15rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+
+}
+.heading{
+    font-size: 3rem;
+
+}
+
+.inner{
+    margin-top: 5rem;
+
+}
+
+.bot{
+    color: white;
+    padding: 1.25rem 2.25rem;
+    background-color:#f4623a;
+    border-radius: 10rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 0.85rem;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+.third-body-container{
+    display: flex;
+    justify-content: center;
+}
+.third-body{
+    background-color: #f4623a;
+    padding-bottom: 5rem;
+
+}
+.third-body-set{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    height: 10rem;
+    text-align: center;
+    padding-top: 5rem;
+    width: 100% !important;
+}
+.horizondal-lines{
+    background-color: white;
+    height: 1rem;
+    margin: 1.5rem auto;
+    opacity: 1;
+    width: 3rem;
+}
+.third-body-p{
+    color: rgb(255, 255, 255,0.75) !important;
+    font-size: 1.15rem;
+    padding-bottom: 2rem;
+
+}
+.fourth-body{
+    background-color: white;
+    padding: 8rem 0;
+
+}
+
+.fourth-body-container{
+    display: flex;
+    justify-content: center;
+}
+
+.third-body-btn{
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 1.25rem 2.25rem;
+    border: none;
+    border-radius: 10rem;
+
+
+}
+.fourth-body-heading{
+    width: 100% !important;
+}
+.icons{
+    margin-top: 3.5rem;
+}
+.hi4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
+.fourth-para{
+    color: #6c757d !important;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+.w5{
+    width: 100%;
+    height: auto;
+
+}
+.over{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f4623a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.85sec ;
+}
+.over h2{
+    color: white;
+    
+}
+
+.img1{
+    position: relative;
+}
+.img1:hover .over{
+    opacity: 1;
+}
+
+
+.sixth-body{
+    height: 20rem;
+    background-color: #1f1f1f;
+
+}
+.col{
+    color: white;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    
+}
+.sixth-a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    margin-top: 2rem;
+
+}
+
+
+.h27{
+    padding-top: 8rem;
+    font-size: 2.2rem;
+
+}
+.seventh-p{
+    font-family: 'Merriweather', serif;  
+    color: #6c757d !important;
+}
+.txt-type{
+    font-family: 'Merriweather', serif;  
+}
+.gape{
+    margin-top: 1rem;
+    height: 3.5rem;
+    min-width: 100%;
+    border-radius: 1rem;
+    border-color: #6c757d;
+    border: o.1px solid;
+
+}
+.txt-area{
+    margin-top: 1rem;
+    border: 0.1px solid; 
+    min-width: 100%;
+    border-color: #6c757d;   
+    margin-top: 1rem; 
+    border-radius: 1rem;
+}
+
+.btn-class{
+    background-color: #f4623a;
+    opacity: 0.65;
+    width: 37rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.btn-col{
+    color: white !important;
+
+}
+.icon-for-end{
+    font-size: 2rem;
+    color: #6c757d;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
